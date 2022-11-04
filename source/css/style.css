@@ -1,0 +1,713 @@
+/*
+#################################
+# Configuração padrão da página #
+#################################
+*/
+
+body, html {
+	margin: 0;
+	font: 16px "Lato", sans-serif;
+	color: #777;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+}
+
+.linha {
+	background-color: #fff;
+    height: 10px;
+}
+
+.conteudo {
+	font-size: 25px;
+	align-content: center;
+	color: #777;
+	background-color: #fff;
+	text-align: justify;
+	padding: 50px 80px;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.conteudo2 {
+	font-size: 30px;
+	align-content: center;
+	color: #777;
+	background-color: #fff;
+	text-align: center;
+	padding: 50px 80px;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.conteudo3 {
+	font-size: 30px;
+	align-content: center;
+	color: #777;
+	background-color: #fff;
+	text-align: justify;
+	padding: 50px 80px;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+h3 {
+	text-transform: uppercase;
+	color: #111;
+	text-align: center;
+}
+
+p {
+	margin-bottom: 20px;
+	color: #fff;
+	text-shadow: #000 0.1em 0.1em 0.2em;
+	text-indent: 2em;
+}
+
+.pstream {
+	margin-bottom: 20px;
+	text-shadow: #000 0.1em 0.1em 0.2em;
+	display: inline;
+	color: rgba(255, 255, 0, 0.95);
+}
+
+p::first-letter {
+	font-size: 2rem;
+	font-weight: bold;
+	color: red;
+	text-shadow: #000 0.1em 0.1em 0.2em;
+}
+
+label.label {
+	color: #fff;
+	text-shadow: #000 0.1em 0.1em 0.2em;
+}
+
+label.label::first-letter {
+	font-size: 2rem;
+	font-weight: bold;
+	color: red;
+	text-shadow: #000 0.1em 0.1em 0.2em;
+}
+
+h1, h4 {
+	color: #fff;
+	text-shadow: #000 0.1em 0.1em 0.2em;
+}
+
+h4 {
+	display: inline;
+	color: rgba(255, 0, 0, 0.95);
+	text-shadow: #000 0.1em 0.1em 0.2em;
+	display: inline;
+}
+
+h1::first-letter {
+	font-size: 2rem;
+	font-weight: bold;
+	color: red;
+	text-shadow: #000 0.1em 0.1em 0.2em;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.perfil {
+	padding: 40px;
+	width: 250px;
+	height: 250px;
+	float: left;
+}
+
+table {
+	font-size: 20px;
+}
+
+.title {
+	font-size: 1.75em;
+	color: rgba(255, 0, 0, 0.95);
+	text-shadow: #000 0.1em 0.1em 0.2em;
+	display: inline;
+	padding: 10px;
+}
+
+.txt {
+	color: rgba(255, 255, 0, 0.95);
+	font-size: 1.5em;
+	text-shadow: #000 0.1em 0.1em 0.2em;
+	padding: 20px;
+}
+
+table, td, tr {
+	padding: 5px 0;
+}
+
+.rd-a {
+	width: 48px;
+	height: 48px;
+}
+
+.a-table{
+	text-align: center;
+	text-decoration: none;
+	width: 300px;
+	height: 150px;
+	margin: 10px;
+	padding: 125px 10px 0 10px;
+	overflow: auto;
+}
+
+.a-table img {
+	width: 100%;
+	max-width: 300px;
+	height: 100%;
+	max-height: 150px;
+	overflow: auto;
+}
+
+/*
+################################
+########### Tradução ###########
+################################
+*/
+
+#google_translate_element, .goog-te-banner-frame, .goog-te-balloon-frame, #goog-gt-tt, .goog-te-balloon-frame, .goog-tooltip, .goog-tooltip:hover {
+	display: none !important;
+}
+
+/*
+################################
+######## Slide Image BG ########
+################################
+*/
+
+.slider {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+.slide img {
+    width: 100%;
+	height: 100%;
+}
+
+#radio1:checked ~ .first, #radio4:checked ~ .first, #radio7:checked ~ .first, #radio10:checked ~ .first, #radio13:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first, #radio5:checked ~ .first, #radio8:checked ~ .first, #radio11:checked ~ .first, #radio14:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first, #radio6:checked ~ .first, #radio9:checked ~ .first, #radio12:checked ~ .first, #radio15:checked ~ .first {
+    margin-left: -50%;
+}
+
+.navigation-auto div {
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/*
+###############################
+##### Horizontal Menu CSS #####
+###############################
+*/
+
+nav{
+	display: flex;
+	justify-content: center;
+ }
+
+#navegacao {
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 1080;
+	height: 1%;
+	background: #fff;
+	justify-content: center;
+	align-items: center;
+}
+
+ul li {
+	float: left;
+	justify-content: center;
+	align-items: center;
+}
+
+ul.drop {
+	float: left;
+	justify-content: center;
+	align-items: center;
+}
+
+ul a.horz {
+	display: block;
+	padding: 0 2em;
+	line-height: 2.2em;
+	text-decoration: none;
+	color: #000;
+}
+
+ul .primeiro a.horz {
+	background: #fff;
+}
+
+ul a.horz:hover {
+	text-shadow: #000 0.1em 0.1em 0.2em;
+	color: #fff;
+	background: rgba(255, 0, 0, 0.75);
+}
+
+#home #navegacao .home a.horz, #quem-somos #navegacao .quem-somos a.horz, #streamers #navegacao .streamers a.horz, #parceiros #navegacao .parceiros a.horz, #galeria #navegacao .galeria a.horz, #fale-conosco #navegacao .fale-conosco a.horz, #galeria-img #navegacao .galeria-img a.horz {
+	background-position: right bottom;
+	background-color: rgba(255, 255, 0, 0.75);
+	color: #000;
+	text-shadow: #000 0.1em 0.1em 0.2em;
+}
+
+.dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.parceiros:hover .dropbtn, .galeria-img:hover .dropbtn {
+	color: #fff;
+	background-color: rgba(255, 0, 0, 0.75);
+	text-shadow: #000 0.1em 0.1em 0.2em;
+}
+
+.parceiros:hover .dropdown-content, .galeria-img:hover .dropdown-content {
+	text-shadow: #000 0.1em 0.1em 0.2em;
+	color: #fff;
+	display: block;
+}
+
+li.parceiros, li.galeria-img {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: #fff;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #fff;
+}
+
+.parceiros:hover .dropdown-content {
+	display: block;
+}
+
+/*
+###############################
+###### Vertical Menu CSS ######
+###############################
+*/
+
+.container {
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+	z-index: 1;
+}
+  
+.menu-toggle {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: rgba(255, 0, 0, 1);
+	box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
+	position: absolute;
+	z-index: 5;
+	bottom: 0;
+	right: 0;
+	display: table;
+	text-align: center;
+}
+
+.menu-toggle .fa {
+	color: #fff;
+	font-size: 2em;
+	display: table-cell;
+	vertical-align: middle;
+	transition: 0.4s;
+}
+
+.menu-toggle.open .fa {
+	transform: rotate(135deg);
+}
+  
+.btn-app {
+	width: 2.5em;
+	height: 2.5em;
+	border-radius: 50%;
+	position: absolute;
+	background-color: rgba(255, 255, 0, 1);
+	color: #000;
+	text-align: center;
+}
+
+.btn-app .fa {
+	line-height: 2.5em;
+}
+  
+.open .btn-app {
+	box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
+}
+  
+.menu-round {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 3;
+}
+
+.menu-round .btn-app {
+	bottom: 0.25em;
+	right: 0.25em;
+	transition: 0.4s;
+}
+
+.menu-round.open .btn-app:nth-of-type(1) {
+	right: 0.5em;
+	bottom: 4.25em;
+	transition-delay: 0.2s;
+}
+
+.menu-round.open .btn-app:nth-of-type(2) {
+	right: 3.5em;
+	bottom: 3.5em;
+	transition-delay: 0.1s;
+}
+
+.menu-round.open .btn-app:nth-of-type(3) {
+	right: 4.25em;
+	bottom: 0.5em;
+}
+
+a.fa {
+	width: 16x;
+	height: 16px;
+}
+
+/*
+#################################
+######## Efeito Parallax ########
+#################################
+*/
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10 {
+	position: relative;
+	height: 100%;
+	opacity: 0.75;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.caixa1 {
+	background-color: yellow;
+	background-image: url(https://github.com/lobao-code/bancoimg/blob/main/Logos/Logo-SemFundo.gif?raw=true);
+}
+
+.conteudo-titulo {
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+}
+
+.conteudo-form {
+	position: absolute;
+	top: 1%;
+	width: 100%;
+	text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+	color: #fff;
+	background-color: #000;
+	padding: 18px;
+	font-size: 50px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+footer {
+	background-color: rgba(0, 0, 0, 0.75);
+	text-shadow: #000 0.1em 0.1em 0.2em;
+	text-align: center;
+    font-weight: bold;
+    padding: 5px 50px;
+	color: #fff;
+}
+
+/*
+################################
+############# Form #############
+################################
+*/
+
+.form .button, .form .message, .customSelect, .form .select, .form .textarea, .form .text-input, .form .option-input + label, .form .checkbox-input + label, .form .label {
+	padding: 0.75em 1em;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+			appearance: none;
+	outline: none;
+	line-height: normal;
+	border-radius: 0;
+	border: none;
+	background: none;
+	display: block;
+}
+  
+.form .label {
+	font-weight: bold;
+	color: white;
+	padding-top: 0;
+	padding-left: 0;
+	letter-spacing: 0.025em;
+	font-size: 1.125em;
+	line-height: 1.25;
+	position: relative;
+	z-index: 100;
+}
+
+.required .form .label:after, .form .required .label:after {
+	content: " *";
+	color: #E8474C;
+	font-weight: normal;
+	font-size: 0.75em;
+	vertical-align: top;
+}
+  
+.customSelect, .form .select, .form .textarea, .form .text-input, .form .option-input + label, .form .checkbox-input + label {
+	font: inherit;
+	line-height: normal;
+	width: 100%;
+	box-sizing: border-box;
+	background: #222222;
+	color: white;
+	position: relative;
+}
+
+.customSelect:placeholder, .form .select:placeholder, .form .textarea:placeholder, .form .text-input:placeholder, .form .option-input + label:placeholder, .form .checkbox-input + label:placeholder {
+	color: white;
+}
+
+.customSelect:-webkit-autofill, .form .select:-webkit-autofill, .form .textarea:-webkit-autofill, .form .text-input:-webkit-autofill, .form .option-input + label:-webkit-autofill, .form .checkbox-input + label:-webkit-autofill {
+	box-shadow: 0 0 0px 1000px #111111 inset;
+	-webkit-text-fill-color: white;
+	border-top-color: #111111;
+	border-left-color: #111111;
+	border-right-color: #111111;
+}
+
+.customSelect:not(:focus):not(:active).error, .form .select:not(:focus):not(:active).error, .form .textarea:not(:focus):not(:active).error, .form .text-input:not(:focus):not(:active).error, .form .option-input + label:not(:focus):not(:active).error, .form .checkbox-input + label:not(:focus):not(:active).error, .error .customSelect:not(:focus):not(:active), .error .form .select:not(:focus):not(:active), .form .error .select:not(:focus):not(:active), .error .form .textarea:not(:focus):not(:active), .form .error .textarea:not(:focus):not(:active), .error .form .text-input:not(:focus):not(:active), .form .error .text-input:not(:focus):not(:active), .error .form .option-input + label:not(:focus):not(:active), .form .error .option-input + label:not(:focus):not(:active), .error .form .checkbox-input + label:not(:focus):not(:active), .form .error .checkbox-input + label:not(:focus):not(:active) {
+	background-size: 8px 8px;
+	background-image: linear-gradient(135deg, rgba(232, 71, 76, 0.5), rgba(232, 71, 76, 0.5) 25%, transparent 25%, transparent 50%, rgba(232, 71, 76, 0.5) 50%, rgba(232, 71, 76, 0.5) 75%, transparent 75%, transparent);
+	background-repeat: repeat;
+}
+
+.form:not(.has-magic-focus) .customSelect.customSelectFocus, .form:not(.has-magic-focus) .customSelect:active, .form:not(.has-magic-focus) .select:active, .form:not(.has-magic-focus) .textarea:active, .form:not(.has-magic-focus) .text-input:active, .form:not(.has-magic-focus) .option-input + label:active, .form:not(.has-magic-focus) .checkbox-input + label:active, .form:not(.has-magic-focus) .customSelect:focus, .form:not(.has-magic-focus) .select:focus, .form:not(.has-magic-focus) .textarea:focus, .form:not(.has-magic-focus) .text-input:focus, .form:not(.has-magic-focus) .option-input + label:focus, .form:not(.has-magic-focus) .checkbox-input + label:focus {
+	background: #4E4E4E;
+}
+  
+.form .message {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 100;
+	font-size: 0.625em;
+	color: white;
+}
+  
+.form .option-input, .form .checkbox-input {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.form .option-input + label, .form .checkbox-input + label {
+	display: inline-block;
+	width: auto;
+	color: #4E4E4E;
+	position: relative;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+		-ms-user-select: none;
+			user-select: none;
+	cursor: pointer;
+}
+
+.form .option-input:focus + label, .form .checkbox-input:focus + label, .form .option-input:active + label, .form .checkbox-input:active + label {
+	color: #4E4E4E;
+}
+
+.form .option-input:checked + label, .form .checkbox-input:checked + label {
+	color: white;
+}
+  
+.form .button {
+	font: inherit;
+	line-height: normal;
+	cursor: pointer;
+	background: #E8474C;
+	color: white;
+	font-weight: bold;
+	width: auto;
+	margin-left: auto;
+	font-weight: bold;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.form .button:hover, .form .button:focus, .form .button:active {
+	color: white;
+	border-color: white;
+}
+
+.form .button:active {
+	position: relative;
+	top: 1px;
+	left: 1px;
+}
+  
+.form {
+	font-size: 20px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.form .field {
+	width: 100%;
+	margin: 0 0 1.5em 0;
+}
+
+@media screen and (min-width: 40em) {
+	.form .field.half {
+	  width: calc(50% - 1px);
+	}
+}
+
+.form .field.last {
+	margin-left: auto;
+}
+
+.form .textarea {
+	max-width: 100%;
+}
+
+.form .select {
+	text-indent: 0.01px;
+	text-overflow: "" !important;
+}
+
+.form .select::-ms-expand {
+	display: none;
+}
+
+.form .checkboxes, .form .options {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.form .checkbox, .form .option {
+	float: left;
+	margin: 1px;
+}
+
+.customSelect {
+	pointer-events: none;
+}
+
+.customSelect:after {
+	content: "";
+	pointer-events: none;
+	width: 0.5em;
+	height: 0.5em;
+	border-style: solid;
+	border-color: white;
+	border-width: 0 3px 3px 0;
+	position: absolute;
+	top: 50%;
+	margin-top: -0.625em;
+	right: 1em;
+	transform-origin: 0 0;
+	transform: rotate(45deg);
+}
+
+.customSelect.customSelectFocus:after {
+	border-color: white;
+}
+
+.magic-focus {
+	position: absolute;
+	z-index: 0;
+	width: 0;
+	pointer-events: none;
+	background: rgba(255, 255, 255, 0.15);
+	transition: top 0.2s, left 0.2s, width 0.2s;
+	-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+	transform-style: preserve-3d;
+	will-change: top, left, width;
+	transform-origin: 0 0;
+}
