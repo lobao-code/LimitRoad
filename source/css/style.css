@@ -463,6 +463,12 @@ a.fa {
 	text-align: center;
 }
 
+.align {
+	display: flex;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.0);
+}
+
 .conteudo-form {
 	position: absolute;
 	top: 1%;
